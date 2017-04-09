@@ -111,7 +111,7 @@ Let's update it to do that:
 ```elixir
 def application do
   [
-    applications: [:cowboy, :logger, :plug],
+    extra_applications: [:cowboy, :logger, :plug],
     mod: {Example, []}
   ]
 end
